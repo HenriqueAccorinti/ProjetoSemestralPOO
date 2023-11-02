@@ -1,0 +1,78 @@
+## Imagens da tela inicial, retiradas de https://unsplash.com/pt-br
+
+'https://images.unsplash.com/photo-1532207733185-fc73ca0a54b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1917&q=80',
+'https://images.unsplash.com/photo-1580656940647-8854a00547f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+'https://images.unsplash.com/photo-1521485714898-f097eb6fc5b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+'https://images.unsplash.com/photo-1585412459212-8def26f7e84c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80',
+'https://images.unsplash.com/photo-1491336477066-31156b5e4f35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+'https://images.unsplash.com/photo-1600091166971-7f9faad6c1e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80',
+'https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
+'https://images.unsplash.com/photo-1580657018950-c7f7d6a6d990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+
+
+
+## Imagens dos produtos, retiradas de https://lista.mercadolivre.com.br/
+
+
+- Terno Slim Cinza
+
+https://http2.mlstatic.com/D_NQ_NP_2X_635061-MLB70192223698_062023-F.webp
+
+1899
+
+
+
+- Terno Preto Kit Completo
+
+https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRa-Dx0DHYmV8pO1DLwDLSI3FhLd6U-fT99r9jcAiUtXEiC8vRgDXhK912_NFfG_BD0f3tIUW2WYjvM-eZ_F4p-ykfQTRPnY6RpayfViLBJytUHcIMye0ly&usqp=CAE
+
+1349
+
+
+
+- Terno Cinza Escuro
+
+https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQaI8Kt8uNsuVe8CJZUUenzdUohuoQO7rQg5m4GngeJ6QCkQs2P4pPNtBnIJvELJoaXisR7-wccp-3zK_0gUqEwK01cZirCh_0z4SCO1joAFirUQqRU4Gq1&usqp=CAE
+
+2399
+
+
+
+- Blazer Azul Slim
+
+https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRh-8ueOBTZuUftADRGz_ZfMAyOcchMGSdKIblLJ55T_OFU_Qe1xUkP5DLw1baDs7DGk-SVYFlyqtztNY3Ytu9THyocwy_Jg7zos5sShSDADgaZkA0IeFVDXjE9&usqp=CAE
+
+1499
+
+
+
+- Kit Completo All Black
+
+https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpMTXEBu5AIiYYksDw8xUD00WHTsgparSFWFI_-5e6W5C5Y0JWmNysHqtt68DS85VGLBLY4VheRUraTCFZcF8gZVIy2RGbZLJKs3dXoGg&usqp=CAE
+
+1099
+
+
+
+
+- Blazer e Colete Vermelho
+
+https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRpM4E4Q6tfA66zosOWrrGjSGFoBFZy8lC8R2B9TiFBBwVBuLVvbndh_Zf1amCL4R8Eg230OxmVGMPMbN_xZqLplIQV5YsZu_KHBoE_wIvWzz6XAzDdZqJaYgA&usqp=CAE
+
+1199
+
+
+
+- Terno Azul Marinho
+
+https://http2.mlstatic.com/D_NQ_NP_712603-MLB48363183312_112021-O.webp
+
+1230
+
+
+
+- Colete e Gravata
+
+https://http2.mlstatic.com/D_NQ_NP_2X_961320-MLB48985209535_012022-F.webp
+
+670

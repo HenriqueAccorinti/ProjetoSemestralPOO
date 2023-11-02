@@ -79,23 +79,7 @@ class UserDAO():
         return cls._instance
 
     def _connect(self):
-        self.conn = sqlite3.connect(r'Ternos.db', check_same_thread=False)
-
-    '''
-    def create_tables(self):
-        self.cursor = self.conn.cursor()
-        self.cursor.execute("""
-            CREATE TABLE IF NOT EXISTS Users (
-                name TEXT,
-                email TEXT,
-                password TEXT,
-                cpf TEXT
-            );
-        """)
-
-        self.conn.commit()
-        self.cursor.close()
-    '''    
+        self.conn = sqlite3.connect(r'Ternos.db', check_same_thread=False)  
 
     def get_all(self):
         self.cursor = self.conn.cursor()
@@ -196,17 +180,6 @@ class ProductDAO():
             resultados.append(Product(name = resultado[0], price = resultado[1], url = resultado[2], amount = resultado[3]))
         self.cursor.close()
         return resultados
-
-    '''
-    def deleteProducts(self):
-        self.cursor = self.conn.cursor()
-        self.cursor.execute("""
-            DELETE FROM Products;
-        """)
-
-        self.conn.commit()
-        self.cursor.close()
-    '''
     
     def inserir_product(self, product):
         try:
@@ -235,7 +208,21 @@ class ProductDAO():
         self.cursor.close()
         return product
 
-    def atualizar_product(self, product):
+    def atualizar_product(self, amount, name):
+        try:
+            self.cursor = self.conn.cursor()
+            self.cursor.execute(f"""
+                UPDATE Products SET
+                amount = '{amount}'
+                WHERE name = '{name}'
+            """)
+            self.conn.commit()
+            self.cursor.close()
+        except:
+            return False
+        return True
+    
+    def atualizar_product_cart(self, product):
         try:
             self.cursor = self.conn.cursor()
             self.cursor.execute(f"""
@@ -410,7 +397,7 @@ class CartController():
             for item in self.get_cart().get_products():
                 if item[0].get_amount() - item[1] >= 0:
                     item[0].set_amount(item[0].get_amount() - item[1])
-                ProductDAO.get_instance().atualizar_product(item[0])
+                ProductDAO.get_instance().atualizar_product_cart(item[0])
             self.get_cart().set_products([])
             return True
         except:
@@ -418,7 +405,6 @@ class CartController():
 
 
 p_controller = ProductController()
-
 st.set_page_config(page_title="Ternos.com", page_icon="👔")
 
 image_urls = [
@@ -441,18 +427,17 @@ if "Login" not in st.session_state:
     st.session_state["Cart"] = CartController()
     st.session_state["carrinho"] = ""
 
-
+if st.session_state["Login"] == "negado" or st.session_state["Login"] == "errado":
+    st.markdown("Para utilizar nossos serviços, faça Login no canto esquerdo da tela!")
     for image_url in image_urls:
         st.image(image_url, width=700)
-    st.markdown("Faça seu Login no canto esquerdo da tela para utilizar nossos serviços!")
-
     
 with st.sidebar:
 
     if st.session_state["Login"] == "negado" or st.session_state["Login"] == "errado":
 
         st.title("Bem vindo!")
-        st.markdown("Faça seu Login para utilizar nossos serviços!")
+        st.markdown("Faça seu Login!\n\nAinda não possui cadastro?\nRegistre-se!")
         st.divider()
 
         email = st.text_input(
