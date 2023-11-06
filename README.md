@@ -28,7 +28,7 @@ Para instalar o projeto, siga estas etapas:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/HenriqueAccorinti/ProjetoSemestralPOO.git
 ```
 3. Acesse o diretório do projeto:
 ```bash
